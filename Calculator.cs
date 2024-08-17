@@ -69,7 +69,7 @@ namespace HelloCSharpWin
                 NumScreen.Text = NumScreen.Text + num;
             }
         }
-        private void NumPlus_Click(object sender, EventArgs e)  // 연산자 버튼
+        private void NumPlus_Click(object sender, EventArgs e)  // 연산자 버튼 ("="버튼의 클릭 이벤트도 NumPlus_Click 사용) 
         {
             if (isNewNum == false)
             {
